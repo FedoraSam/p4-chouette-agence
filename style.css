@@ -438,6 +438,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .mg-lg {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.1em;
 }
 
 .tight-width-whitespace {
@@ -703,9 +704,11 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+q{
+    font-size: 1.5em;
+}
 h2 {
-    font-size: 3em;
+    font-size: 1.8em;
     line-height: 1.4em;
 }
 
@@ -736,9 +739,11 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #fff!important;
 }
-
+.black{
+    color: black!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -777,9 +782,6 @@ h4 {
 .tc-white {
     color: #FFFFFF!important;
     
-}
-.contrast{
-    background: rgba(165, 147, 99, 0.7);
 }
 
 .btn-atomic-tangerine {
