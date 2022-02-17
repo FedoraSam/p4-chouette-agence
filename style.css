@@ -341,6 +341,11 @@ a:hover {
     margin: 10px 10px 0 0;
     border: 0px;
 }
+@media (min-width:768px) {
+    .navbar-toggle {
+        display: none
+    }
+}
 
 .navbar-toggle:hover {
     background: transparent!important;
@@ -652,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
