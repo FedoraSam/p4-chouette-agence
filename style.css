@@ -827,13 +827,22 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
-
+@supports not (background-image: url("img/la-chouette-agence-banniere.webp")) {
+    .bg {
+        background-image: url("img/la-chouette-agence-banniere.jpg")
+    }
+}
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
+}
+@supports not (background-image: url("img/image-de-presentation.webp")) {
+    .bg {
+        background-image: url("img/image-de-presentation.jpg")
+    }
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
